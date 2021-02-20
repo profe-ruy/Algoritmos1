@@ -34,7 +34,22 @@ namespace EjemploFor02
 
         private void btnProcesar_Click(object sender, EventArgs e)
         {
-           
+            //leer los datos
+            int numero = int.Parse(txtNumero.Text);
+            string mensaje = "";
+            //procesar los datos
+            //Altura
+            for (int i = 1; i <= numero; i++)
+            {
+                //largo
+                for (int j = 1; j<=2* numero; j++)
+                {
+                    mensaje += "*"  ;
+                }
+                mensaje += Environment.NewLine;
+            }
+            //salda de datos
+            txtResultado.Text = mensaje;
         }
     }
 }

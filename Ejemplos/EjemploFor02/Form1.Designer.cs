@@ -32,6 +32,7 @@ namespace EjemploFor02
             this.btnProcesar = new System.Windows.Forms.Button();
             this.txtNumero = new System.Windows.Forms.TextBox();
             this.txtResultado = new System.Windows.Forms.TextBox();
+            this.label1 = new System.Windows.Forms.Label();
             this.SuspendLayout();
             // 
             // btnProcesar
@@ -57,14 +58,25 @@ namespace EjemploFor02
             this.txtResultado.Location = new System.Drawing.Point(106, 109);
             this.txtResultado.Multiline = true;
             this.txtResultado.Name = "txtResultado";
+            this.txtResultado.ScrollBars = System.Windows.Forms.ScrollBars.Vertical;
             this.txtResultado.Size = new System.Drawing.Size(238, 299);
             this.txtResultado.TabIndex = 2;
+            // 
+            // label1
+            // 
+            this.label1.AutoSize = true;
+            this.label1.Location = new System.Drawing.Point(103, 28);
+            this.label1.Name = "label1";
+            this.label1.Size = new System.Drawing.Size(57, 13);
+            this.label1.TabIndex = 3;
+            this.label1.Text = "Valor de N";
             // 
             // Form1
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(458, 450);
+            this.Controls.Add(this.label1);
             this.Controls.Add(this.txtResultado);
             this.Controls.Add(this.txtNumero);
             this.Controls.Add(this.btnProcesar);
@@ -81,6 +93,7 @@ namespace EjemploFor02
         private System.Windows.Forms.Button btnProcesar;
         private System.Windows.Forms.TextBox txtNumero;
         private System.Windows.Forms.TextBox txtResultado;
+        private System.Windows.Forms.Label label1;
     }
 }
 

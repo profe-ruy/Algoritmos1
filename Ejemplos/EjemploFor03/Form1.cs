@@ -32,13 +32,33 @@ namespace EjemploFor03
             - 8 
             - 12                                ||      - 50
             - 24                                ||
-            Cantidad de divisores pares : 5     || Cantidad de divisores pares : 3
+            Cantidad de divisores pares : 6     || Cantidad de divisores pares : 3
              */
         }
 
         private void btnProcesar_Click(object sender, EventArgs e)
         {
-            
+            // lectura de datos
+            int numero = int.Parse(txtNumero.Text);
+            string mensaje = "";
+            int contadorPares = 0;
+            //proceso de datos
+            for (int i = 1; i <= numero; i++)
+            {
+                var esDivisior = numero % i == 0;
+                if (esDivisior)
+                {
+                    mensaje += "Es divisor : " + i + Environment.NewLine;
+                    if (i % 2 == 0)
+                    {
+                        contadorPares++;
+                    }
+                }
+            }
+            if (contadorPares > 0)
+                mensaje += "Tiene " + contadorPares + " divisores pares";
+            //salida de mensaje
+            txtResultado.Text = mensaje;
         }
     }
 }
