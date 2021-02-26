@@ -65,7 +65,7 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "EjemploFor03", "EjemploFor0
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "EjemploTryCatch01", "EjemploTryCatch01\EjemploTryCatch01.csproj", "{F8FEDE09-9C46-40BD-BE2F-D4346A0B414A}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WindowsFormsApp1", "WindowsFormsApp1\WindowsFormsApp1.csproj", "{13EF70C5-DDEB-4EEE-88AE-51194ADE581E}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "EjemploTryCatch02", "WindowsFormsApp1\EjemploTryCatch02.csproj", "{13EF70C5-DDEB-4EEE-88AE-51194ADE581E}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
